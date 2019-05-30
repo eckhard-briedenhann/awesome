@@ -17,7 +17,7 @@ func (a *AwesomePerson) init() {
 }
 
 func (a *AwesomePerson) String() string {
-	return fmt.Sprintf("%s %s", a.title, a.name)
+	return fmt.Sprintf("the GREAT %s %s", a.title, a.name)
 }
 func CreateAwesomePerson() (a *AwesomePerson) {
 	a = &AwesomePerson{}
